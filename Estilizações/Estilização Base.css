@@ -1,4 +1,4 @@
-/* ESTILIZAÇÃO BASE */
+/* ESTILIZAÇÃO DO CABEÇALHO E RODAPÉ */
 html {
     font-family: Roboto;
     color: black;
@@ -47,4 +47,10 @@ html {
     background-color: #C4C4C4;
     padding-top: 2%;
     margin-top: 50px;
+}
+
+/* ESTILIZAÇÃO DOS PRODUTOS*/
+#Produtos {
+    margin: 0px 20px;
+    padding: 0px 10px;
 }
