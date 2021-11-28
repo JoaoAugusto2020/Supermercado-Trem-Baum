@@ -1,16 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Merienda&family=Nothing+You+Could+Do&family=Poiret+One&family=Tangerine&display=swap');
+
+#Cabeçalho {
+    background: #C971FF;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
 #Bebidas {
     font-family: Tangerine;
-    font-size: 100px;
-    margin: 50px 0px;
+    font-size: 150px;
+    margin: 50px 0px -30px 0px;
 }
-
-#owl-demo .item{
-    background: #3fbf79;
-    padding: 30px 0px;
-    margin: 10px;
-    color: #FFF;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    text-align: center;
-  }
