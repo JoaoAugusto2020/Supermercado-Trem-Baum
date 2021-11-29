@@ -63,6 +63,8 @@ html {
 .Grup-foto {
     margin: 10px;
     width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
 /* CONSIDERAÇÕES FINAIS */
@@ -76,5 +78,9 @@ html {
     margin: 10px 0px;
 }
 .Con-profile {
+    margin: 5px;
+    width: 60px;
+    height: 60px;
     border-radius: 100px;
+    object-fit: cover;
 }
