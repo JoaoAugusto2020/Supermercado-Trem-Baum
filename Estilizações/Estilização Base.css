@@ -1,10 +1,16 @@
-/* ESTILIZAÇÃO BASE DO CABEÇALHO E RODAPÉ */
+/*
+
+        RESPONSIVIDADE MOBILE
+
+*/
+
 html {
     font-family: Roboto;
     color: black;
+    font-size: small;
 }
 .conteudo {
-    margin: 0px 100px;
+    margin: 0px 25px;
 }
 .divisão {
     margin: 50px -50px;
@@ -30,14 +36,22 @@ html {
 #Cabeçalho {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
+#Cab-Mobile {
+    display: block;
+}
+#Cab-PC {
+    display: none;
+}
 .Cab-Logo-icon {
-    width: 150px;
+    margin-left: -100px;
+    width: 100px;
 }
 .Cab-Navbar {
-    margin: 0px -50px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 .Cab-Navbar-item {
-    margin: 0px 5px
+    margin: 0px 5px;
+    pointer-events: visible;
 }
 .nav-link{
     margin: 0px -10px 0px 0px;
@@ -54,7 +68,7 @@ html {
     text-decoration: none;
 }
 #Rodapé {
-    font-size: small;
+    font-size: smaller;
     background-color: #C4C4C4;
     padding-top: 2%;
     margin-top: 25px;
@@ -85,4 +99,111 @@ html {
     text-align: left;
     margin: 50px 0px 0px 0px;
     font-size: xx-large;
+}
+
+
+
+
+
+/*
+
+        RESPONSIVIDADE DESKTOP
+
+*/
+@media (min-width: 768px) {
+
+    /* ESTILIZAÇÃO BASE DO CABEÇALHO E RODAPÉ */
+    html {
+        font-family: Roboto;
+        color: black;
+    }
+    .conteudo {
+        margin: 0px 100px;
+    }
+    .divisão {
+        margin: 50px -50px;
+    }
+    .link-branco {
+        color: white;
+    }
+    .link-preto {
+        color: black;
+    }
+    .text-sombra {
+        text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    }
+    .centralizar {
+        text-align: center;
+    }
+    .esquerda {
+        text-align: left;
+    }
+    .direita {
+        text-align: right;
+    }
+    #Cabeçalho {
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    }
+    #Cab-Mobile {
+        display: none;
+    }
+    #Cab-PC {
+        display: block;
+    }
+    .Cab-Logo-icon {
+        width: 150px;
+    }
+    .Cab-Navbar {
+        margin: 0px -50px 0px 0px;
+    }
+    .Cab-Navbar-item {
+        margin: 0px 5px;
+    }
+    .nav-link{
+        margin: 0px -10px 0px 0px;
+    }
+    .Cab-Wpp-icon {
+        width: 40px;
+    }
+    .Cab-Wpp, .Cab-Logo {
+        color: black;
+        text-decoration: none;
+    }
+    .Cab-Wpp:hover, .Cab-Logo:hover {
+        color: black;
+        text-decoration: none;
+    }
+    #Rodapé {
+        font-size: small;
+        background-color: #C4C4C4;
+        padding-top: 2%;
+        margin-top: 25px;
+    }
+    .Rod-Logo-icon {
+        width: 100px;
+    }
+    #VoltarTopo {
+        margin: 50px 0px 25px 0px;
+    }
+
+    /* ESTILIZAÇÃO DOS PRODUTOS*/
+    #Produtos {
+        margin: 0px 20px;
+        padding: 0px 10px;
+    }
+    .Prod-Foto {
+        height: 150px;
+        margin: 10px 0px;
+    }
+    .Prod-Subtitulo1 {
+        text-align: center;
+        margin: 25px 0px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .Prod-Subtitulo2 {
+        text-align: left;
+        margin: 50px 0px 0px 0px;
+        font-size: xx-large;
+    }
 }
