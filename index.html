@@ -20,7 +20,9 @@
 <body>
     <header id="Cabeçalho">
         <div class="container">
-            <div class="row-12">
+
+            <!-- CABEÇALHO MOBILE -->
+            <div class="row-12" id="Cab-Mobile">     
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
 
@@ -33,7 +35,7 @@
                             </a>
                         </div>
 
-                        <!-- SETORES -->
+                        <!-- SETORES MOBILE -->
                         <div class="col-8">
                             <div class="Cab-Navbar">
                                 <ul class="navbar-nav">
@@ -145,9 +147,142 @@
                                 </div>
                             </a>
                         </div>
+
                     </div>
-                </nav> 
+                </nav>
             </div>
+
+            <!-- CABEÇALHO PC -->
+            <div class="row-12" id="Cab-PC">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+
+                        <!-- LOGO -->
+                        <div class="col-2">
+                            <a class="Cab-Logo" href="./index.html">
+                                <div class="centralizar">
+                                    <img class="Cab-Logo-icon" src="./Imagens/Diversos/logo-stb.png" alt="Logo">
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- SETORES MOBILE -->
+                        <div class="col-8">
+                            <div class="Cab-Navbar">
+                                <ul class="navbar-nav">
+                                    <!-- INDEX -->
+                                    <div class="Cab-Navbar-item">
+                                        <li class="nav-item btn-dropdown">
+                                            <div class="btn-group">
+                                                <a class="nav-link" href="./index.html">Início</a>
+                                                <a class="btn btn-none dropdown-toggle dropdown-toggle-split"  data-bs-toggle="dropdown" aria-expanded="false"></a>
+                                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="dropdownMenuButton2">
+                                                    <li><a class="dropdown-item" href="./index.html#Sobre">Sobre</a></li>
+                                                    <li><a class="dropdown-item" href="./index.html#Localização">Localização</a></li>
+                                                    <li><a class="dropdown-item" href="./index.html#Endereços">Endereços</a></li>
+                                                    <li><hr class="dropdown-divider"></li>
+                                                    <li><a class="dropdown-item" href="./index.html#Contatos">Contatos e Redes Sociais</a></li>
+                                                    <li><a class="dropdown-item" href="./index.html#Patrocinadores">Patrocinadores</a></li>
+                                                    <li><a class="dropdown-item" href="./index.html#Desenvolvedora">Desenvolvedora do Site</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                    <!-- AÇOUGUE -->
+                                    <div class="Cab-Navbar-item">
+                                        <li class="nav-item btn-dropdown">
+                                            <div class="btn-group">
+                                                <a class="nav-link" href="./acougue.html">Açougue</a>
+                                                <a class="btn btn-none dropdown-toggle dropdown-toggle-split"  data-bs-toggle="dropdown" aria-expanded="false"></a>
+                                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="dropdownMenuButton2">
+                                                    <li><a class="dropdown-item" href="./acougue.html#Promoções">Promoções do Dia</a></li>
+                                                    <li><a class="dropdown-item" href="./acougue.html#MaisVendidas">Carnes Mais Vendidas</a></li>
+                                                    <li><a class="dropdown-item" href="./acougue.html#Exóticas">Carnes Exóticas</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                    <!-- BEBIDAS -->
+                                    <div class="Cab-Navbar-item">
+                                        <li class="nav-item btn-dropdown">
+                                            <div class="btn-group">
+                                                <a class="nav-link" href="./bebidas.html">Bebidas</a>
+                                                <a class="btn btn-none dropdown-toggle dropdown-toggle-split"  data-bs-toggle="dropdown" aria-expanded="false"></a>
+                                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="dropdownMenuButton2">
+                                                    <li><a class="dropdown-item" href="./bebidas.html#Promoções">Promoções</a></li>
+                                                    <li><a class="dropdown-item" href="./bebidas.html#Alcoólicas">Bebidas Alcoólicas</a></li>
+                                                    <li><a class="dropdown-item" href="./bebidas.html#Refrigerantes">Refrigerantes</a></li>
+                                                    <li><a class="dropdown-item" href="./bebidas.html#Sucos">Sucos</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                    <!-- PADARIA -->
+                                    <div class="Cab-Navbar-item">
+                                        <li class="nav-item btn-dropdown">
+                                            <div class="btn-group">
+                                                <a class="nav-link" href="./padaria.html">Padaria</a>
+                                                <a class="btn btn-none dropdown-toggle dropdown-toggle-split"  data-bs-toggle="dropdown" aria-expanded="false"></a>
+                                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="dropdownMenuButton2">
+                                                    <li><a class="dropdown-item" href="./padaria.html#Fabricação">Fabricação Própria</a></li>
+                                                    <li><a class="dropdown-item" href="./padaria.html#Pães">Pães</a></li>
+                                                    <li><a class="dropdown-item" href="./padaria.html#Bolos">Bolos e Broas</a></li>
+                                                    <li><a class="dropdown-item" href="./padaria.html#Sobremesas">Sobremesas</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                    <!-- HORTIFRUTI -->
+                                    <div class="Cab-Navbar-item">
+                                        <li class="nav-item btn-dropdown">
+                                            <div class="btn-group">
+                                                <a class="nav-link" href="./hortifruti.html">Hortifruti</a>
+                                                <a class="btn btn-none dropdown-toggle dropdown-toggle-split"  data-bs-toggle="dropdown" aria-expanded="false"></a>
+                                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="dropdownMenuButton2">
+                                                    <li><a class="dropdown-item" href="./hortifruti.html#Promoções">Promoções da Semana</a></li>
+                                                    <li><a class="dropdown-item" href="./hortifruti.html#Exóticos">Exóticos</a></li>
+                                                    <li><a class="dropdown-item" href="./hortifruti.html#Frutas">Frutas, Verduras e Legumes</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                    <!-- HIGIENE E LIMPEZA -->
+                                    <div class="Cab-Navbar-item">
+                                        <li class="nav-item btn-dropdown">
+                                            <div class="btn-group">
+                                                <a class="nav-link" href="./higiene.html">Higiene e Limpeza</a>
+                                                <a class="btn btn-none dropdown-toggle dropdown-toggle-split"  data-bs-toggle="dropdown" aria-expanded="false"></a>
+                                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="dropdownMenuButton2">
+                                                    <li><a class="dropdown-item" href="./higiene.html#MaisVendidos">Mais Vendidos</a></li>
+                                                    <li><a class="dropdown-item" href="./higiene.html#Limpeza">Limpeza</a></li>
+                                                    <li><a class="dropdown-item" href="./higiene.html#Higiene">Higiene</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- WHATSAPP -->
+                        <div class="col-2">
+                            <a class="Cab-Wpp" href="https://wa.me/5534997073807" target="_blank">
+                                <div class="centralizar">
+                                    <h6 class="text-sombra">Peça já pelo WhatsApp</h6>
+                                    <img class="Cab-Wpp-icon" src="./Imagens/Diversos/whatsapp.png" alt="whatsapp icon">
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </nav>
+            </div>
+            
         </div>
     </header>
 
@@ -158,10 +293,14 @@
             <div id="Sobre" class="centralizar">
                 <div class="row">
                     <div class="col">
-                        <p>Rede de Supermercados Trem Baum está presente em quatro bairros diferentes de Patrocínio, e conta com os mais diversos produtos para sua compra, confira os endereços de nossos supermercados abaixo.</p>
+                        <div class="position-relative top-50 start-50 translate-middle">
+                            <p style="font-size: xx-large;">A Rede de Supermercados Trem Baum está presente em quatro bairros diferentes de Patrocínio/MG, e conta com os mais diversos produtos para sua compra, confira os endereços de nossos supermercados abaixo.</p>
+                        </div>
                     </div>
                     <div class="col">
-                        MAPA (não esquece de colocar um id="Localização")
+                        <div class="position-relative top-50 start-50 translate-middle">
+                            <iframe class=" Mapa" src="https://www.google.com/maps/d/u/0/embed?mid=1So-khzohdu9UH56xKGGw7gnEeKDzjMgo"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -171,16 +310,48 @@
             <div id="Endereços" class="centralizar">
                 <div class="row">
                     <div class="col">
-                        STB CENTRAL
+                        <figure>
+                            <img class="Fachada-1" src="./Imagens/Index/stb-central.jpg" alt="STB Central">
+                        </figure>
+                        <caption>
+                            <u>Supermercado Trem Baum Central</u><br>
+                            Morada Nova<br>
+                            Av. dos Bálsamos, 645<br>
+                            (34) 3832-5282
+                        </caption>
                     </div>
                     <div class="col">
-                        STB 2
+                        <figure>
+                            <img class="Fachada-2" src="./Imagens/Index/stb-ii.jpg" alt="STB II">
+                        </figure>
+                        <caption>
+                            <u>Supermercado Trem Baum II</u><br>
+                            Eneas<br>
+                            Av. Odir Aleixo, 807<br>
+                            (34) 3832-7704
+                        </caption>
                     </div>
                     <div class="col">
-                        STB 3
+                        <figure>
+                            <img class="Fachada-3" src="./Imagens/Index/stb-iii.jpg" alt="STB II">
+                        </figure>
+                        <caption>
+                            <u>Supermercado Trem Baum III</u><br>
+                            Marciano Brandão<br>
+                            R. Nhonhô Paiva, 873<br>
+                            (34) 3832-0269
+                        </caption>
                     </div>
                     <div class="col">
-                        STB 4
+                        <figure>
+                            <img class="Fachada-4" src="./Imagens/Index/stb-iv.jpg" alt="STB II">
+                        </figure>
+                        <caption>
+                            <u>Supermercado Trem Baum IV</u><br>
+                            Centro<br>
+                            Av. Rui Barbosa, 584<br>
+                            (34) 3831-2245
+                        </caption>
                     </div>
                 </div>
             </div>
