@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Merienda&family=Nothing+You+Could+Do&family=Poiret+One&family=Tangerine&display=swap');
 
 #Cabeçalho {
-    background: #FF7337;
+    /*background: #FF7337;*/
+    background: #FFFFFF;
 }
 #Sobre {
     margin-top: 100px;
