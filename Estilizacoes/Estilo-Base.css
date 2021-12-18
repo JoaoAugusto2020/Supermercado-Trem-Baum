@@ -10,10 +10,11 @@ html {
     font-size: small;
 }
 .conteudo {
-    margin: 0px 25px;
+    margin: 0px 10px;
 }
 .divisão {
-    margin: 75px -50px;
+    width: auto;
+    margin: 20px 0px;
 }
 .link-branco {
     color: white;
@@ -151,7 +152,8 @@ label {
         margin: 0px 100px;
     }
     .divisão {
-        margin: 100px -50px;
+        width: auto;
+        margin: 100px 0px;
     }
     .link-branco {
         color: white;
