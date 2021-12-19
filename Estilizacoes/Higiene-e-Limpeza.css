@@ -5,6 +5,13 @@
 }
 #Higiene-e-Limpeza {
     font-family: Poiret One;
-    font-size: 100px;
+    font-size: 75px;
     margin: 50px 0px;
+}
+@media (min-width: 768px) {
+    #Higiene-e-Limpeza {
+        font-family: Poiret One;
+        font-size: 100px;
+        margin: 50px 0px;
+    }
 }
