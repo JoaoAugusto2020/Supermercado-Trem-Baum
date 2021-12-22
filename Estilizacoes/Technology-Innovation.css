@@ -3,6 +3,9 @@ html {
     font-family: Roboto;
     color: black;
 }
+h1 {
+    margin-bottom: 25px;
+}
 .conteudo {
     margin: 0px 100px;
 }
@@ -27,7 +30,7 @@ html {
 .direita {
     text-align: right;
 }
-/* CABEÇALHO */
+/* CABEÇALHO MOBILE */
 #Cabeçalho {
     background: #38afff;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
@@ -47,6 +50,7 @@ html {
     width: 125px;
     margin: 20px 0px;
 }
+/* CABEÇALHO DESKTOP */
 @media (min-width: 768px) {
     .Cab-TINF {
         width: 125px;
@@ -87,16 +91,33 @@ html {
     margin: 20px 0px;
 }
 .Grup-membro {
-    margin: 30px;
+    margin: 30px 0px;
 }
 .Grup-foto {
-    margin: 10px;
+    margin: 10px 0px;
     width: 150px;
     height: 150px;
     object-fit: cover;
 }
-
-/* CONSIDERAÇÕES FINAIS */
+@media (min-width: 512px) {
+    #Grupo {
+        margin: 20px 0px;
+    }
+    .Grup-membro {
+        margin: 30px 50px;
+    }
+    .Grup-foto {
+        margin: 10px;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+/* EQUIPES */
+h2 {
+    margin: 40px 0px 10px 0px;
+}
+/* CONSIDERAÇÕES FINAIS MOBILE */
 .Con-todos {
     margin: 20px 0px;
 }
@@ -116,6 +137,7 @@ html {
 .Con-text {
     margin: 0px 0px 0px 50px;
 }
+/* CONSIDERAÇÕES FINAIS DESKTOP */
 @media (min-width: 768px) {
     .Con-todos {
         margin: 20px 0px;
