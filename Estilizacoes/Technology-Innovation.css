@@ -7,7 +7,12 @@ h1 {
     margin-bottom: 25px;
 }
 .conteudo {
-    margin: 0px 100px;
+    margin: 0px 50px;
+}
+@media (min-width: 768px) {
+    .conteudo {
+        margin: 0px 100px;
+    }
 }
 .divisão {
     margin: 100px -50px;
@@ -91,7 +96,7 @@ h1 {
     margin: 20px 0px;
 }
 .Grup-membro {
-    margin: 30px 0px;
+    margin: 30px 10px;
 }
 .Grup-foto {
     margin: 10px 0px;
